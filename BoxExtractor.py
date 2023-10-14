@@ -47,8 +47,6 @@ class ImageProcessor:
 
 
         # For Debugging
-        # Enable this line to see vertical and horizontal lines in the image which are used to find boxes
-        # cv2.imwrite(os.path.join(self.output_folder, "img_final_bin.jpg"), img_final_bin)
 
         self.store_process_image("3_img_final_bin.jpg", img_final_bin)
 
